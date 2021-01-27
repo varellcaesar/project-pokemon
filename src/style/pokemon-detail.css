@@ -1,0 +1,108 @@
+.pokemon-detail-container{
+    background-color: #1890ff;
+    width: 100%;
+    height: 60vw;
+    position: relative;
+}
+
+.pokemon-detail-frame{
+    padding-top: 2%;
+    background-color: #4B55A1;
+    width: 40%;
+    height: 100vh;
+    position: relative;
+    display: block;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 30px;
+    box-shadow: rgb(62, 58, 58) 0px 3px 3px;
+
+}
+
+.pokemon-detail-image img {
+    width: 120px;
+    height: 120px;
+}
+
+.pokemon-detail-name{
+    color: #fff;
+    font-size: 25px;
+    padding-top: 1%;
+    padding-bottom: 4%;
+    font-weight: bold;
+}
+
+.pokemon-detail-moves{
+    padding: 10% 10% 5% 10%;
+}
+
+.pokemon-type-layout {
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 5%;
+}
+
+.pokemon-type-card{
+    width: 15vh;
+    height: 10vh;
+    border-radius: 10px;
+    background-color: #f9cb09;
+}
+
+.pokemon-detail-moves-list{
+    overflow: auto;
+    padding: 8px 24px;
+    height: 40vh;
+}
+
+.pokemon-catch-button{
+    position: relative;
+}
+
+.title-desc{
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .pokemon-detail-container{
+        background-color: #1890ff;
+        width: 100%;
+        height: 120vw;
+        position: relative;
+    }
+
+    .pokemon-detail-frame{
+        background-color: antiquewhite;
+        width: 50%;
+        height: 100vh;
+        position: relative;
+        display: block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .pokemon-detail-container{
+        background-color: #43A047;
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+
+    .pokemon-detail-frame{
+        background-color: #4B55A1;
+        width: 80%;
+        height: 100vh;
+        position: relative;
+        display: block;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 30px;
+    }
+}

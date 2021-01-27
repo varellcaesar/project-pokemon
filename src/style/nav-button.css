@@ -1,0 +1,34 @@
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    max-width: 600px;
+    padding: 10px 0;
+  }
+    
+  nav > a {
+    color: #4B55A1;
+    padding: 16px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+  }
+  
+  nav > a:hover:not(.active) {
+    border-bottom: 2px solid #4B55A1;
+  }
+  
+  a.active {
+    color: #EC6159;;
+    border-bottom: 2px solid #EC6159;
+  }
+  
+  main {
+    padding: 20px;
+    width: 800px;  
+    background: #F1F6F9;
+    border-radius: 5px;  
+  }

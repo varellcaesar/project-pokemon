@@ -32,7 +32,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        box-shadow: rgb(62, 58, 58) 0px 3px 3px;
     }
 }
 
@@ -46,7 +45,6 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        box-shadow: rgb(62, 58, 58) 0px 3px 3px;
     }
 }
 
